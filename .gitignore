@@ -260,5 +260,6 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Local settings
+# Local settings and testing
 appsettings.development.json
+wwwroot/

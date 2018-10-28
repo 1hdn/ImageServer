@@ -5,21 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\img\**" />
+    <Content Remove="wwwroot\img\**" />
+    <EmbeddedResource Remove="wwwroot\img\**" />
+    <None Remove="wwwroot\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="appsettings.development.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\img\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\img\1000x20-cover\source.jpg" />
-    <None Include="wwwroot\img\1000x200-contain\source.jpg" />
-    <None Include="wwwroot\img\1000x200-cover\source.jpg" />
-    <None Include="wwwroot\img\100x100-cover\source.jpg" />
-    <None Include="wwwroot\img\100x20-cover\source.jpg" />
-    <None Include="wwwroot\img\100x25-cover\source.jpg" />
-    <None Include="wwwroot\img\100x40-cover\source.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +22,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ImageServer\ImageServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
