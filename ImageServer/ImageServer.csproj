@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Henrik Nielsen</Authors>
+    <PackageProjectUrl>https://github.com/1hdn/ImageServer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/1hdn/ImageServer</RepositoryUrl>
+    <PackageTags>image resize crop server</PackageTags>
+    <Description>Serves resized and optimized images by parsing special formatted requests.</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageFit" Version="1.0.1" />
+    <PackageReference Include="SimpleShell" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
